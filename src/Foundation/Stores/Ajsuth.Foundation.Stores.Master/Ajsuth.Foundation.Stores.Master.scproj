@@ -62,19 +62,20 @@
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
       <SitecoreName>Commerce Engine Settings</SitecoreName>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\Commerce\CCP\CES\Commerce Terms.item">
+    <SitecoreItem Include="sitecore\Commerce\CCP\CES\CT.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <SitecoreName>Commerce Terms</SitecoreName>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\Commerce\CCP\CES\CT\BusinessTools.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\Commerce\CCP\CES\Commerce Terms\BusinessTools.item">
+    <SitecoreItem Include="sitecore\Commerce\CCP\CES\CT\BusinessTools\ViewNames.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\Commerce\CCP\CES\Commerce Terms\BusinessTools\ViewNames.item">
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\Commerce\CCP\CES\Commerce Terms\BusinessTools\ViewNames\StoresDashboard.item">
+    <SitecoreItem Include="sitecore\Commerce\CCP\CES\CT\BusinessTools\ViewNames\StoresDashboard.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
